@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style >
+		.cu10{
+			position: absolute;
+			top: 90px;
+			left: 650px;
+			width: 50px;
+			height: 50px;
+			font-family: Times New Roman;
+			background: skyblue;
+			border: solid blue 5px;
+			font-size: 30px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-top: -20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu10:hover{
+			background: lightgreen;
+			color: black;
+		}
+		.cu11{
+			position: absolute;
+			top: 90px;
+			left: 1050px;
+			width: 50px;
+			height: 50px;
+			font-family: Times New Roman;
+			background: skyblue;
+			border: solid blue 5px;
+			font-size: 30px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-top: -20px;
+			border-radius: 70px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu11:hover{
+			background: gold;
+			color: black;
+		}
+		.ani{
+			position: absolute;
+			top: 200px;
+			left: 200px;
+			width: 200px;
+			height: 200px;
+		}
+		.cu31{
+			position: absolute;
+			top: 570px;
+			left: 350px;
+			width: 100px;
+			height: 100px;
+			background: lightgreen;
+			font-family: Times New Roman;
+			border: solid green 5px;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu32{
+		position: absolute;
+			top: 570px;
+			left: 650px;
+			width: 100px;
+			height: 100px;
+			background: lightgreen;
+			border: solid green 5px;
+			font-size: 50px;
+			font-family: Times New Roman;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;	
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu33{
+			position: absolute;
+			top: 570px;
+			left: 950px;
+			width: 100px;
+			height: 100px;
+			background: lightgreen;
+			border: solid green 5px;
+			font-family: Times New Roman;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu34{
+			position: absolute;
+			top: 570px;
+			left: 350px;
+			width: 100px;
+			height: 100px;
+			background: gold;
+			border: solid yellow;
+			font-family: Times New Roman;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+
+		}
+		.cu35{
+			position: absolute;
+			top: 570px;
+			left: 650px;
+			width: 100px;
+			height: 100px;
+			background: gold;
+			border: solid yelow;
+			font-family: Times New Roman;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;	
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+
+		.cu36{
+			position: absolute;
+			top: 570px;
+			left: 950px;
+			width: 100px;
+			height: 100px;
+			font-family: Times New Roman;
+			background: gold;
+			border: solid yellow;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.mue{
+			width: 50px;
+			height: 50px;
+			background: white;
+			position: absolute;
+			font-family: Times New Roman;
+			font-size: 30px;
+			top: 200px;
+			left: 10px;
+			border: solid blue;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.in{
+            position: absolute;
+            top: 600px;
+			width: 100px;
+			height: 50px;
+			background: skyblue;
+			border: solid blue;
+			position: absolute;
+			
+			font-size: 30px;
+			font-family: Times New Roman;
+			border-radius: 20px 20px 20px 20px;
+		}
+
+		.in:hover{
+background: blue;
+		}
+		.cua{
+			position: absolute;
+			top: 10px;
+			left: 120px;
+			width: 1200px;
+			height: 700px;
+			background: white;
+			border: solid blue; 5px;
+            border-radius: 20px 20px 20px 20px;
+		}
+		.mate{
+			position: absolute;
+			top: 10px;
+			left: 150px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+				font-family: Times New Roman;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.mate:hover{
+			background: red;
+		}
+		.ge{
+			position: absolute;
+			top: 10px;
+			left: 500px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+				font-family: Times New Roman;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.ge:hover{
+			background: greenyellow;
+			color: black;
+		}
+		.es{
+			position: absolute;
+			top: 10px;
+			left: 900px;
+			width: 100px;
+				font-family: Times New Roman;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.es:hover{
+			background:yellow;
+			color: black;
+		}
+		.cu1{
+			position: absolute;
+			top: 200px;
+			left: 350px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+				font-family: Times New Roman;
+			font-size: 50px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu2{
+			position: absolute;
+			top: 200px;
+			left: 500px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+			color: black;
+			font-family: Times New Roman;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu3{
+			position: absolute;
+			top: 200px;
+			left: 650px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			font-family: Times New Roman;
+			border: solid blue 5px;
+			font-size: 50px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu4{
+			position: absolute;
+			top: 200px;
+			left: 800px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+			color: black;
+			font-family: Times New Roman;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu5{
+			position: absolute;
+			top: 200px;
+			left: 950px;
+			width: 100px;
+			height: 100px;
+			background: white;
+			border: solid blue 5px;
+			font-size: 50px;
+			font-family: Times New Roman;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu8{
+			position: absolute;
+			top: 570px;
+			left: 950px;
+			width: 100px;
+			height: 100px;
+			background: red;
+			border: solid darkred 5px;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu7{
+			position: absolute;
+			top: 570px;
+			left: 650px;
+			width: 100px;
+			height: 100px;
+			background: red;
+			border: solid darkred 5px;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu6{
+			position: absolute;
+			top: 570px;
+			left: 350px;
+			width: 100px;
+			height: 100px;
+			background: red;
+			border: solid darkred 5px;
+			font-size: 50px;
+			color: white;
+			box-sizing: border-box;
+			padding-left: 20px;
+			padding-top: 20px;
+			display: none;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu9{
+			position: absolute;
+			top: 90px;
+			left: 300px;
+			width: 50px;
+			height: 50px;
+			font-family: Times New Roman;
+			background: skyblue;
+			border: solid blue 5px;
+			font-size: 30px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-top: -20px;
+			border-radius: 70px;
+			border-radius: 20px 20px 20px 20px;
+		}
+		.cu9:hover{
+			background: red;
+			color: white;
+		}
+		.co{
+            position: absolute;
+			top: 10px;
+			left: 10px;
+			width: 50px;
+			height: 50px;
+			font-family: Times New Roman;
+			background: skyblue;
+			border: solid blue 5px;
+			font-size: 30px;
+			color: black;
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-top: -20px;
+			border-radius: 70px;
+			border-radius: 20px 20px 20px 20px;
+		}
+	</style>
+</head>
+<body bgcolor="black">
+<a href="finalaa.html"><div class="in">Volver</div></a>
+<div class="cua"><div class="mate" id="aaaa" >M</div>
+<div class="ge" >G</div>
+<div class="es" >E</div></div>
+<div class="cu1" id="n1">1</div>
+<div class="cu2" id="n2">2</div>
+<div class="cu3" id="n3">3</div>
+<div class="cu4" id="nu4">4</div>
+<div class="cu5" id="nu5">5</div>
+<div class="ani" id="na"></div>
+<div class="ania" id="nas"></div>
+<div class="anio" id="nassa"></div>
+<div class="cu6" onclick="un()"   id="a9"></div>
+<div class="cu7" onclick="dos()"  id="a1"></div>
+<div class="cu8" onclick="tre()"  id="a2"></div>
+<div class="mue" id="mues"></div>
+<div class="mu2"></div>
+<div class="mu3"></div>
+<div class="cu31" onclick="uno2()"id="a3"></div>
+<div class="co" onclick="color()">color</div>
+<div class="cu32" onclick="d()" id="a4"></div>
+<div class="cu33" onclick="tre2()"id="a5"></div>
+<div class="cu34" onclick="uno3()"id="a6"></div>
+<div class="cu35" onclick="dos3()"id="a7"></div>
+<div class="cu36" id="a8"></div>
+<div class="cu9" onclick="mat()">+</div>
+<div class="cu10" onclick="geo()">+</div>
+<div class="cu11" onclick="es()">+</div>
+<script>
+	m=5
+	g=5
+	e=5
+	a=[1,3,2]
+	b=[1,1,2,3]
+	c=[1,3,3]
+	x=0
+	ll=0
+	ñ=0
+	l=0
+	p=0
+	re=0
+
+	
+
+	function mat(){
+na.style.background="url('ma.gif')"
+a9.style.display="block"
+a1.style.display="block"
+a2.style.display="block"
+	}
+function un(){
+x++
+if (a[0]==x) {
+	z++
+}
+}
+function dos(){
+x++
+if (a[2]==x) {
+	z++	
+
+}
+if (z=3) {
+	m=m+5
+	
+}}
+
+function tre(){
+x++
+if (a[1]==x) {
+	z++
+	
+}        
+}
+
+function geo() {
+	na.style.background="url('geo.gif')"
+	a3.style.display="block"
+	a4.style.display="block"
+	a5.style.display="block"
+}
+
+function uno2() {
+	ñ++
+	if (b[0]=ñ) {
+		p++
+	}
+}
+function uno2() {
+	ñ++
+	if (b[1]=ñ) {
+		p++
+	}
+}
+ 
+function d() {
+	ñ++
+	if (b[2]==ñ) {
+		p++
+		
+	}
+	
+}
+function tre2() {
+	ñ++
+	if (b[3]==ñ) {
+		p++
+	}
+if (ñ==4) {
+	g=g+g
+}
+}
+
+function es(){
+	na.style.background="url('espa.gif')"
+	a6.style.display="block"
+	a7.style.display="block"
+	a8.style.display="block"
+}
+function  uno3(){
+	l++
+	if (c[0]==l) {
+		z++
+	}
+}
+
+function dos3(){
+	l++
+	if (c[1]==l) {
+		ll++
+	}
+}
+
+function dos3(){
+	l++
+	if (c[2]==l) {
+		ll++
+		
+}
+if (l==3) {
+	e=e+e
+}
+}
+function color(){
+ya=(Math.random()*(4-1)+1)
+yo=(Math.random()*(4-1)+1)
+yu=(Math.random()*(4-1)+1)
+ye=(Math.random()*(4-1)+1)
+yi=(Math.random()*(4-1)+1)
+if(ya<=3){
+n1.style.background="red"
+}
+if(ya<=2){
+n1.style.background="green"
+}
+
+if(ya<=2){
+n1.style.background="yellow"
+}
+
+if(yo<=3){
+n2.style.background="red"
+}
+if(yo<=2){
+n2.style.background="green"
+}
+if(yo<=2){
+n2.style.background="yellow"
+}
+if(ye<=3){
+n3.style.background="red"
+}
+if(ye<=2){
+n3.style.background="green"
+}
+if(ye<=2){
+n3.style.background="yellow"
+}
+if(yi==3){
+nu4.style.background="red"
+}
+if(yi==2){
+nu4.style.background="green"
+}
+if(yi==2){
+nu4.style.background="yellow"
+}
+if(yu==3){
+nu5.style.background="red"
+}
+if(yu==2){
+nu5.style.background="green"
+}
+if(yu==2){
+nu5.style.background="yellow"
+}
+}
+
+
+
+</script>
+</body>
+</html>
